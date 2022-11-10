@@ -48,10 +48,6 @@ p {
   height: 100px;
 }
 
-/* .firstRow div:not(:last-child) {
-  margin-right: 0.5rem;
-} */
-
 h2,
 p {
   color: white;
@@ -86,7 +82,11 @@ a:link {
   float: left;
 }
 
-.firstRow_boxOne-description {
+.description-space {
   line-height: 24px;
   padding: 15px 0px 0px 17px;
+}
+
+.margin-right {
+  margin-right: 0.5rem;
 }
