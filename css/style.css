@@ -67,9 +67,15 @@ a:link {
   color: #1286d3;
 }
 
-.boxes {
+/* .boxes {
   background-color: #141414;
   width: calc((100% / 3) - 1rem);
+  box-shadow: 0px 0px 17px 6px rgba(0, 0, 0, 0.32);
+} */
+
+.boxes {
+  background-color: #141414;
+  width: calc((100% / 3) - 0.5rem);
   box-shadow: 0px 0px 17px 6px rgba(0, 0, 0, 0.32);
 }
 
