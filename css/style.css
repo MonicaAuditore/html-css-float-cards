@@ -14,9 +14,10 @@ body {
   font-size: 10px;
 }
 
-.container {
+.main_container {
   max-width: 1000px;
   margin: 0 auto;
+  background-color: #e7e7e7;
 }
 
 .header_title {
@@ -34,3 +35,43 @@ p {
 }
 
 /* FINE SEZIONE HADER */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.firstRow {
+  background-color: #b9b9b9;
+  margin-top: 2rem;
+  height: 100px;
+}
+
+.firstRow:not(:last-child) {
+  margin-right: 10px;
+}
+
+.firstRow_boxOne {
+  background-color: aquamarine;
+  width: calc(100% / 3);
+  height: 130px;
+}
+
+.firstRow_boxTwo {
+  background-color: rgb(129, 127, 255);
+  width: calc(100% / 3);
+  height: 130px;
+}
+
+.firstRow_boxThree {
+  background-color: rgb(255, 127, 223);
+  width: calc(100% / 3);
+  height: 130px;
+}
+
+.firstRow_boxOne,
+.firstRow_boxTwo,
+.firstRow_boxThree {
+  float: left;
+}
