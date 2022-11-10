@@ -48,19 +48,19 @@ p {
   height: 100px;
 }
 
-.firstRow:not(:last-child) {
-  margin-right: 10px;
+.firstRow div:not(:last-child) {
+  margin-right: 0.5rem;
 }
 
 .firstRow_boxOne {
   background-color: aquamarine;
-  width: calc(100% / 3);
+  width: calc((100% / 3) - 0.5rem);
   height: 130px;
 }
 
 .firstRow_boxTwo {
   background-color: rgb(129, 127, 255);
-  width: calc(100% / 3);
+  width: calc((100% / 3) - 0.5rem);
   height: 130px;
 }
 
