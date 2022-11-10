@@ -55,6 +55,11 @@ p {
   color: white;
 }
 
+.center-justified {
+  text-align: justify;
+  text-align-last: center;
+}
+
 h2 {
   text-transform: uppercase;
 }
