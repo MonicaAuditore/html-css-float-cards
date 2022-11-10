@@ -3,3 +3,34 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+body {
+  font-family: "Jua", sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header_title {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #e53170;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* FINE SEZIONE HADER */
