@@ -73,30 +73,19 @@ a:link {
 .firstRow_boxTwo {
   background-color: rgb(129, 127, 255);
   width: calc((100% / 3) - 0.5rem);
-  height: 130px;
 }
 
 .firstRow_boxThree {
   background-color: rgb(255, 127, 223);
   width: calc(100% / 3);
-  height: 130px;
-}
-
-.firstRow_boxOne,
-.firstRow_boxTwo,
-.firstRow_boxThree {
-  float: left;
 }
 
 /* BOX ONE */
-.firstRow_boxOne-img,
-.firstRow_boxOne-description {
+
+.float-left {
   float: left;
 }
 
-.firstRow_boxOne-img {
-  width: 100px;
-}
 .firstRow_boxOne-description {
   line-height: 24px;
   padding: 15px 0px 0px 17px;
