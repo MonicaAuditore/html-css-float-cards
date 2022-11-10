@@ -33,7 +33,7 @@ p {
   font-size: 1rem;
 }
 
-/* FINE SEZIONE HADER */
+/* FINE SEZIONE HEADER */
 
 .clearfix::after {
   content: "";
@@ -43,7 +43,7 @@ p {
 
 .firstRow {
   margin-top: 2rem;
-  height: 100px;
+  /* height: 100px; */
 }
 
 .header_p p {
@@ -83,8 +83,6 @@ a:link {
   width: calc(100% / 3);
 }
 
-/* BOX ONE */
-
 .float-left {
   float: left;
 }
@@ -96,4 +94,8 @@ a:link {
 
 .margin-right {
   margin-right: 0.5rem;
+}
+
+img {
+  display: block;
 }
