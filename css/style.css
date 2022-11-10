@@ -41,9 +41,8 @@ p {
   display: block;
 }
 
-.firstRow {
+.marginTop {
   margin-top: 2rem;
-  /* height: 100px; */
 }
 
 .header_p p {
@@ -68,19 +67,9 @@ a:link {
   color: #1286d3;
 }
 
-.firstRow_boxOne {
+.boxes {
   background-color: #141414;
   width: calc((100% / 3) - 0.5rem);
-}
-
-.firstRow_boxTwo {
-  background-color: #141414;
-  width: calc((100% / 3) - 0.5rem);
-}
-
-.firstRow_boxThree {
-  background-color: #141414;
-  width: calc(100% / 3);
 }
 
 .float-left {
